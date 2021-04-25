@@ -1,17 +1,8 @@
 import React, { useState } from "react";
 import { Home } from "../components";
 import { useHistory } from "react-router-dom";
-import { toast } from "react-toastify";
 
 // import { Container } from './styles';
-
-/* 
-  - Criar contexto 
-  - 
-
-
-
-*/
 
 function HomeContainer() {
   const [name, setName] = useState("");
