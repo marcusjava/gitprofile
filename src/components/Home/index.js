@@ -14,6 +14,10 @@ Home.Title = function ({ children, ...props }) {
   return <Title {...props}>{children}</Title>;
 };
 
+Home.Form = function ({ children, ...props }) {
+  return <form {...props}>{children}</form>;
+};
+
 Home.Search = function ({ children, ...props }) {
   return <Search {...props}>{children}</Search>;
 };
